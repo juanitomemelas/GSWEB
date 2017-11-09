@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{10480B95-331C-4F30-A655-A653C6703C31}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebSanchez2016</RootNamespace>
+    <AssemblyName>WebSanchez2016</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <FilesToIncludeForPublish>AllFilesInTheProject</FilesToIncludeForPublish>
+    <Optimize>false</Optimize>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>grupo_sanches.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Oracle.DataAccess, Version=4.112.4.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Oracle\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Telerik.Web.UI, Version=2012.2.912.40, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Telerik\RadControls for ASP.NET AJAX Q2 2012 SP2\Bin40\Telerik.Web.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Telerik.Web.UI.Skins">
+      <HintPath>C:\Program Files\Telerik\RadControls for ASP.NET AJAX Q2 2012 SP2\Bin40\Telerik.Web.UI.Skins.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Telerik.Web.UI.dll" />
+    <Content Include="bin\Telerik.Web.UI.Skins.dll" />
+    <Content Include="bin\Telerik.Web.UI.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="bin\WebSanchez2016.dll" />
+    <Content Include="bin\WebSanchez2016.pdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Copia de Global.css" />
+    <Content Include="Content\estilosPT.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\Global.css" />
+    <Content Include="Content\jquery-1.12.1.min.js" />
+    <Content Include="Content\menuresponsive.css" />
+    <Content Include="Content\scripts\buscaTabla.js" />
+    <Content Include="Content\StyleSheet_Catalogos.css" />
+    <Content Include="Content\w3.css" />
+    <Content Include="es\Acerca_de_GS\GS.aspx" />
+    <Content Include="es\Acerca_de_GS\GS_1.aspx" />
+    <Content Include="es\Acerca_de_GS\GS_en.aspx" />
+    <Content Include="es\Acerca_de_GS\Quien_es_GS.aspx" />
+    <Content Include="es\Contactos\Colombia.aspx" />
+    <Content Include="es\Contactos\Costa_Rica.aspx" />
+    <Content Include="es\Contactos\Credito.aspx" />
+    <Content Include="es\Contactos\Directores.aspx" />
+    <Content Include="es\Contactos\Distribuidores.aspx" />
+    <Content Include="es\Contactos\El_Salvador.aspx" />
+    <Content Include="es\Contactos\Equipo.aspx" />
+    <Content Include="es\Contactos\Guatemala.aspx" />
+    <Content Include="es\Contactos\Guatemala_Distribuidores.aspx" />
+    <Content Include="es\Contactos\Offset_hoja_heatset_periodicos.aspx" />
+    <Content Include="es\Contactos\PlantaCDMX.aspx" />
+    <Content Include="es\Contactos\PlantaTepeji.aspx" />
+    <Content Include="es\Contactos\Rotograbado_flexografia.aspx" />
+    <Content Include="es\Contactos\Serigrafía_Digital_Gran_Formato.aspx" />
+    <Content Include="es\Contactos\Sucursales.aspx" />
+    <Content Include="es\Content\jquery-1.12.1.min.js" />
+    <Content Include="es\Equipo\CTPs_Termicos_Kodak.aspx" />
+    <Content Include="es\Equipo\GS_Digital\Compaginadoras_y_Encuadernadoras_Duplo.aspx" />
+    <Content Include="es\Equipo\GS_Digital\Dobladoras_y_Ecuadernadoras_Baum.aspx" />
+    <Content Include="es\Equipo\GS_Digital\Prensas_Digitales_HP.aspx" />
+    <Content Include="es\Equipo\GS_Digital\Prensas_Digitales_Konica.aspx" />
+    <Content Include="es\Equipo\Prensas_Offset_Komori.aspx" />
+    <Content Include="es\Equipo\Suajadoras_y_Dobladoras_Brausse.aspx" />
+    <Content Include="es\Etica\Codigo_Empleados.aspx" />
+    <Content Include="es\Etica\Codigo_Proveedores.aspx" />
+    <Content Include="es\Etica\Introduccion.aspx" />
+    <Content Include="es\Home.aspx" />
+    <Content Include="es\Home_1.aspx" />
+    <Content Include="es\Mapa\mapa.aspx" />
+    <Content Include="es\Planta_Tepeji.aspx" />
+    <Content Include="es\Privacidad\Privacidad.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Banda_Angosta\Tintas_Base_Agua.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Banda_Angosta\Tintas_Base_Solvente.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Banda_Angosta\Tintas_UV.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Digital_Gran_Formato.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Flexografia.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Heatset\Mantillas_Day.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Heatset\Placas_Kodak.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Heatset\Placas_Tecpro.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Heatset\Quimicos_Varn.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Heatset\Tintas.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Offset_Hoja\Barnices_Base_Agua.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Offset_Hoja\Barnices_UV.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Offset_Hoja\Placas_Kodak.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Offset_Hoja\Placas_Tecpro.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Offset_Hoja\Tintas_Convencionales.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Offset_Hoja\Tintas_UV.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Offset_Hoja\Mantillas_Day.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Periodicos\Placas_Kodak.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Periodicos\Placas_Tecpro.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Periodicos\Tintas.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Periodicos\Mantillas_Day.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Rotograbado.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Serigrafia\Equipo_Graficos.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Serigrafia\Equipo_Textiles.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Serigrafia\Materiales_Graficos.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Serigrafia\Matriales_Textiles.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Serigrafia\SIP.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Serigrafia\Tintas_Graficos.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Serigrafia\Tintas_Textiles.aspx" />
+    <Content Include="es\Tintas_y_Materiales\Serigrafia\Mallas_GWI.aspx" />
+    <Content Include="Global_Imgs\Contenido\BarnicesBaseAgua.png" />
+    <Content Include="Global_Imgs\Contenido\CatalogoOffsetHoja.png" />
+    <Content Include="Global_Imgs\Contenido\HeatsetTintas.png" />
+    <Content Include="Global_Imgs\Contenido\PeriodicosTintas.png" />
+    <Content Include="Global_Imgs\Contenido\PlecaMantillasDay.png" />
+    <Content Include="Global_Imgs\FlechaAnterior.png" />
+    <Content Include="Global_Imgs\FlechaSiguiente.png" />
+    <Content Include="Global_Imgs\FondoHomeColores_1233x545.png" />
+    <Content Include="Global_Imgs\FondoHomeHP_1233x545.png" />
+    <Content Include="Global_Imgs\FondoHomeKomori_1233x545.png" />
+    <Content Include="Global_Imgs\FondoHomePantone_1233x545.png" />
+    <Content Include="Global_Imgs\FondoHomePlantaTP1_1233x545.png" />
+    <Content Include="Global_Imgs\FondoHomeTecpro2_1233x545.png" />
+    <Content Include="Global_Imgs\FondoHomeTecpro_1233x545.png" />
+    <Content Include="Global_Imgs\GS_1100x200.png" />
+    <Content Include="Global_Imgs\GS_297x54.png" />
+    <Content Include="Global_Imgs\lupa.png" />
+    <Content Include="Global_Imgs\SitioEnMantenimiento_254x199.png" />
+    <Content Include="Global_Video\Planta_Tepeji.mp4" />
+    <Content Include="grupo_sanches.ico" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\BDC.cs" />
+    <Compile Include="es\Acerca_de_GS\GS.aspx.cs">
+      <DependentUpon>GS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Acerca_de_GS\GS.aspx.designer.cs">
+      <DependentUpon>GS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Acerca_de_GS\GS_1.aspx.cs">
+      <DependentUpon>GS_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Acerca_de_GS\GS_1.aspx.designer.cs">
+      <DependentUpon>GS_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Acerca_de_GS\GS_en.aspx.cs">
+      <DependentUpon>GS_en.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Acerca_de_GS\GS_en.aspx.designer.cs">
+      <DependentUpon>GS_en.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Acerca_de_GS\Quien_es_GS.aspx.cs">
+      <DependentUpon>Quien_es_GS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Acerca_de_GS\Quien_es_GS.aspx.designer.cs">
+      <DependentUpon>Quien_es_GS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Contactos\Colombia.aspx.cs">
+      <DependentUpon>Colombia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Contactos\Colombia.aspx.designer.cs">
+      <DependentUpon>Colombia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Contactos\Costa_Rica.aspx.cs">
+      <DependentUpon>Costa_Rica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Contactos\Costa_Rica.aspx.designer.cs">
+      <DependentUpon>Costa_Rica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Contactos\Credito.aspx.cs">
+      <DependentUpon>Credito.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Contactos\Credito.aspx.designer.cs">
+      <DependentUpon>Credito.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Contactos\Directores.aspx.cs">
+      <DependentUpon>Directores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Contactos\Directores.aspx.designer.cs">
+      <DependentUpon>Directores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Contactos\Distribuidores.aspx.cs">
+      <DependentUpon>Distribuidores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Contactos\Distribuidores.aspx.designer.cs">
+      <DependentUpon>Distribuidores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Contactos\El_Salvador.aspx.cs">
+      <DependentUpon>El_Salvador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Contactos\El_Salvador.aspx.designer.cs">
+      <DependentUpon>El_Salvador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Contactos\Equipo.aspx.cs">
+      <DependentUpon>Equipo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Contactos\Equipo.aspx.designer.cs">
+      <DependentUpon>Equipo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Contactos\Guatemala.aspx.cs">
+      <DependentUpon>Guatemala.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Contactos\Guatemala.aspx.designer.cs">
+      <DependentUpon>Guatemala.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Contactos\Guatemala_Distribuidores.aspx.cs">
+      <DependentUpon>Guatemala_Distribuidores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Contactos\Guatemala_Distribuidores.aspx.designer.cs">
+      <DependentUpon>Guatemala_Distribuidores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Contactos\Offset_hoja_heatset_periodicos.aspx.cs">
+      <DependentUpon>Offset_hoja_heatset_periodicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Contactos\Offset_hoja_heatset_periodicos.aspx.designer.cs">
+      <DependentUpon>Offset_hoja_heatset_periodicos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Contactos\PlantaCDMX.aspx.cs">
+      <DependentUpon>PlantaCDMX.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Contactos\PlantaCDMX.aspx.designer.cs">
+      <DependentUpon>PlantaCDMX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Contactos\PlantaTepeji.aspx.cs">
+      <DependentUpon>PlantaTepeji.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Contactos\PlantaTepeji.aspx.designer.cs">
+      <DependentUpon>PlantaTepeji.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Contactos\Rotograbado_flexografia.aspx.cs">
+      <DependentUpon>Rotograbado_flexografia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Contactos\Rotograbado_flexografia.aspx.designer.cs">
+      <DependentUpon>Rotograbado_flexografia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Contactos\Serigrafía_Digital_Gran_Formato.aspx.cs">
+      <DependentUpon>Serigrafía_Digital_Gran_Formato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Contactos\Serigrafía_Digital_Gran_Formato.aspx.designer.cs">
+      <DependentUpon>Serigrafía_Digital_Gran_Formato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Contactos\Sucursales.aspx.cs">
+      <DependentUpon>Sucursales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Contactos\Sucursales.aspx.designer.cs">
+      <DependentUpon>Sucursales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Contactos\UtilesTablas.cs" />
+    <Compile Include="es\Equipo\CTPs_Termicos_Kodak.aspx.cs">
+      <DependentUpon>CTPs_Termicos_Kodak.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Equipo\CTPs_Termicos_Kodak.aspx.designer.cs">
+      <DependentUpon>CTPs_Termicos_Kodak.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Equipo\GS_Digital\Compaginadoras_y_Encuadernadoras_Duplo.aspx.cs">
+      <DependentUpon>Compaginadoras_y_Encuadernadoras_Duplo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Equipo\GS_Digital\Compaginadoras_y_Encuadernadoras_Duplo.aspx.designer.cs">
+      <DependentUpon>Compaginadoras_y_Encuadernadoras_Duplo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Equipo\GS_Digital\Dobladoras_y_Ecuadernadoras_Baum.aspx.cs">
+      <DependentUpon>Dobladoras_y_Ecuadernadoras_Baum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Equipo\GS_Digital\Dobladoras_y_Ecuadernadoras_Baum.aspx.designer.cs">
+      <DependentUpon>Dobladoras_y_Ecuadernadoras_Baum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Equipo\GS_Digital\Prensas_Digitales_HP.aspx.cs">
+      <DependentUpon>Prensas_Digitales_HP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Equipo\GS_Digital\Prensas_Digitales_HP.aspx.designer.cs">
+      <DependentUpon>Prensas_Digitales_HP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Equipo\GS_Digital\Prensas_Digitales_Konica.aspx.cs">
+      <DependentUpon>Prensas_Digitales_Konica.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Equipo\GS_Digital\Prensas_Digitales_Konica.aspx.designer.cs">
+      <DependentUpon>Prensas_Digitales_Konica.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Equipo\Prensas_Offset_Komori.aspx.cs">
+      <DependentUpon>Prensas_Offset_Komori.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Equipo\Prensas_Offset_Komori.aspx.designer.cs">
+      <DependentUpon>Prensas_Offset_Komori.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Equipo\Suajadoras_y_Dobladoras_Brausse.aspx.cs">
+      <DependentUpon>Suajadoras_y_Dobladoras_Brausse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Equipo\Suajadoras_y_Dobladoras_Brausse.aspx.designer.cs">
+      <DependentUpon>Suajadoras_y_Dobladoras_Brausse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Es_Master.Master.cs">
+      <DependentUpon>Es_Master.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Es_Master.Master.designer.cs">
+      <DependentUpon>Es_Master.Master</DependentUpon>
+    </Compile>
+    <Compile Include="es\Etica\Codigo_Empleados.aspx.cs">
+      <DependentUpon>Codigo_Empleados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Etica\Codigo_Empleados.aspx.designer.cs">
+      <DependentUpon>Codigo_Empleados.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Etica\Codigo_Proveedores.aspx.cs">
+      <DependentUpon>Codigo_Proveedores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Etica\Codigo_Proveedores.aspx.designer.cs">
+      <DependentUpon>Codigo_Proveedores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Etica\Introduccion.aspx.cs">
+      <DependentUpon>Introduccion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Etica\Introduccion.aspx.designer.cs">
+      <DependentUpon>Introduccion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Home_1.aspx.cs">
+      <DependentUpon>Home_1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Home_1.aspx.designer.cs">
+      <DependentUpon>Home_1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Mapa\mapa.aspx.cs">
+      <DependentUpon>mapa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Mapa\mapa.aspx.designer.cs">
+      <DependentUpon>mapa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Planta_Tepeji.aspx.cs">
+      <DependentUpon>Planta_Tepeji.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Planta_Tepeji.aspx.designer.cs">
+      <DependentUpon>Planta_Tepeji.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Privacidad\Privacidad.aspx.cs">
+      <DependentUpon>Privacidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Privacidad\Privacidad.aspx.designer.cs">
+      <DependentUpon>Privacidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Banda_Angosta\Tintas_Base_Agua.aspx.cs">
+      <DependentUpon>Tintas_Base_Agua.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Banda_Angosta\Tintas_Base_Agua.aspx.designer.cs">
+      <DependentUpon>Tintas_Base_Agua.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Banda_Angosta\Tintas_Base_Solvente.aspx.cs">
+      <DependentUpon>Tintas_Base_Solvente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Banda_Angosta\Tintas_Base_Solvente.aspx.designer.cs">
+      <DependentUpon>Tintas_Base_Solvente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Banda_Angosta\Tintas_UV.aspx.cs">
+      <DependentUpon>Tintas_UV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Banda_Angosta\Tintas_UV.aspx.designer.cs">
+      <DependentUpon>Tintas_UV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Digital_Gran_Formato.aspx.cs">
+      <DependentUpon>Digital_Gran_Formato.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Digital_Gran_Formato.aspx.designer.cs">
+      <DependentUpon>Digital_Gran_Formato.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Flexografia.aspx.cs">
+      <DependentUpon>Flexografia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Flexografia.aspx.designer.cs">
+      <DependentUpon>Flexografia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Heatset\Mantillas_Day.aspx.cs">
+      <DependentUpon>Mantillas_Day.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Heatset\Mantillas_Day.aspx.designer.cs">
+      <DependentUpon>Mantillas_Day.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Heatset\Placas_Kodak.aspx.cs">
+      <DependentUpon>Placas_Kodak.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Heatset\Placas_Kodak.aspx.designer.cs">
+      <DependentUpon>Placas_Kodak.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Heatset\Placas_Tecpro.aspx.cs">
+      <DependentUpon>Placas_Tecpro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Heatset\Placas_Tecpro.aspx.designer.cs">
+      <DependentUpon>Placas_Tecpro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Heatset\Quimicos_Varn.aspx.cs">
+      <DependentUpon>Quimicos_Varn.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Heatset\Quimicos_Varn.aspx.designer.cs">
+      <DependentUpon>Quimicos_Varn.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Heatset\Tintas.aspx.cs">
+      <DependentUpon>Tintas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Heatset\Tintas.aspx.designer.cs">
+      <DependentUpon>Tintas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Offset_Hoja\Barnices_Base_Agua.aspx.cs">
+      <DependentUpon>Barnices_Base_Agua.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Offset_Hoja\Barnices_Base_Agua.aspx.designer.cs">
+      <DependentUpon>Barnices_Base_Agua.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Offset_Hoja\Barnices_UV.aspx.cs">
+      <DependentUpon>Barnices_UV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Offset_Hoja\Barnices_UV.aspx.designer.cs">
+      <DependentUpon>Barnices_UV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Offset_Hoja\Placas_Kodak.aspx.cs">
+      <DependentUpon>Placas_Kodak.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Offset_Hoja\Placas_Kodak.aspx.designer.cs">
+      <DependentUpon>Placas_Kodak.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Offset_Hoja\Placas_Tecpro.aspx.cs">
+      <DependentUpon>Placas_Tecpro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Offset_Hoja\Placas_Tecpro.aspx.designer.cs">
+      <DependentUpon>Placas_Tecpro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Offset_Hoja\Tintas_Convencionales.aspx.cs">
+      <DependentUpon>Tintas_Convencionales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Offset_Hoja\Tintas_Convencionales.aspx.designer.cs">
+      <DependentUpon>Tintas_Convencionales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Offset_Hoja\Tintas_UV.aspx.cs">
+      <DependentUpon>Tintas_UV.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Offset_Hoja\Tintas_UV.aspx.designer.cs">
+      <DependentUpon>Tintas_UV.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Offset_Hoja\Mantillas_Day.aspx.cs">
+      <DependentUpon>Mantillas_Day.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Offset_Hoja\Mantillas_Day.aspx.designer.cs">
+      <DependentUpon>Mantillas_Day.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Periodicos\Placas_Kodak.aspx.cs">
+      <DependentUpon>Placas_Kodak.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Periodicos\Placas_Kodak.aspx.designer.cs">
+      <DependentUpon>Placas_Kodak.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Periodicos\Placas_Tecpro.aspx.cs">
+      <DependentUpon>Placas_Tecpro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Periodicos\Placas_Tecpro.aspx.designer.cs">
+      <DependentUpon>Placas_Tecpro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Periodicos\Tintas.aspx.cs">
+      <DependentUpon>Tintas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Periodicos\Tintas.aspx.designer.cs">
+      <DependentUpon>Tintas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Periodicos\Mantillas_Day.aspx.cs">
+      <DependentUpon>Mantillas_Day.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Periodicos\Mantillas_Day.aspx.designer.cs">
+      <DependentUpon>Mantillas_Day.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Rotograbado.aspx.cs">
+      <DependentUpon>Rotograbado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Rotograbado.aspx.designer.cs">
+      <DependentUpon>Rotograbado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Serigrafia\Equipo_Graficos.aspx.cs">
+      <DependentUpon>Equipo_Graficos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Serigrafia\Equipo_Graficos.aspx.designer.cs">
+      <DependentUpon>Equipo_Graficos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Serigrafia\Equipo_Textiles.aspx.cs">
+      <DependentUpon>Equipo_Textiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Serigrafia\Equipo_Textiles.aspx.designer.cs">
+      <DependentUpon>Equipo_Textiles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Serigrafia\Materiales_Graficos.aspx.cs">
+      <DependentUpon>Materiales_Graficos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Serigrafia\Materiales_Graficos.aspx.designer.cs">
+      <DependentUpon>Materiales_Graficos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Serigrafia\Matriales_Textiles.aspx.cs">
+      <DependentUpon>Matriales_Textiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Serigrafia\Matriales_Textiles.aspx.designer.cs">
+      <DependentUpon>Matriales_Textiles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Serigrafia\SIP.aspx.cs">
+      <DependentUpon>SIP.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Serigrafia\SIP.aspx.designer.cs">
+      <DependentUpon>SIP.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Serigrafia\Tintas_Graficos.aspx.cs">
+      <DependentUpon>Tintas_Graficos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Serigrafia\Tintas_Graficos.aspx.designer.cs">
+      <DependentUpon>Tintas_Graficos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Serigrafia\Tintas_Textiles.aspx.cs">
+      <DependentUpon>Tintas_Textiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Serigrafia\Tintas_Textiles.aspx.designer.cs">
+      <DependentUpon>Tintas_Textiles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Serigrafia\Mallas_GWI.aspx.cs">
+      <DependentUpon>Mallas_GWI.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="es\Tintas_y_Materiales\Serigrafia\Mallas_GWI.aspx.designer.cs">
+      <DependentUpon>Mallas_GWI.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Global_Imgs\Presentacion\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="es\Es_Master.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\fonts\fontawesome-webfont.ttf" />
+    <None Include="Content\fonts\fontawesome-webfont.woff" />
+    <None Include="Content\fonts\fontawesome-webfont.woff2" />
+    <None Include="Content\fonts\FontAwesome.otf" />
+    <None Include="Content\fonts\fontawesome.woff" />
+    <Content Include="Content\jquery-3.2.1.js" />
+    <Content Include="Content\main.js" />
+    <None Include="es\Archivos\Mantillas_Day\3610.pdf" />
+    <None Include="es\Archivos\Mantillas_Day\490.pdf" />
+    <None Include="es\Archivos\Mantillas_Day\5000.pdf" />
+    <None Include="es\Archivos\Mantillas_Day\BMAX.pdf" />
+    <None Include="es\Archivos\Mantillas_Day\UVOM.pdf" />
+    <None Include="es\Archivos\Quien_es_Grupo_Sanchez.pdf" />
+    <None Include="Fuentes\DINPro-Bold.otf" />
+    <None Include="Fuentes\DINPro-Light.otf" />
+    <None Include="Fuentes\DINPro-Medium.otf" />
+    <None Include="Fuentes\DIN_Alternate_Bold.ttf" />
+    <None Include="Fuentes\DIN_Condensed_Bold.ttf" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>21352</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/gs</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

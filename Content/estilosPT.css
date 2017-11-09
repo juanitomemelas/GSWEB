@@ -1,0 +1,642 @@
+"*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial,sans-serif;
+}
+
+
+body{
+ 
+  background-color: #FFFFFF;
+}
+header{
+    height: auto;
+    width: 100%;
+}
+
+header img{width: 100%;
+            }
+
+
+.container{
+    position: relative;
+    padding: 0px !important;
+   
+}
+   .container img {
+    width: 100%;
+}
+.prev, .next
+{
+    display: block;
+    height: 100px;
+    width: 40px;
+    position: absolute;
+    top: 40%;
+}
+
+.prev
+{
+       background: url(../Global_imgs/FlechaAnterior.png) no-repeat ;
+    background-position: 0 0;
+    left: 5px;
+}
+
+.prev:hover
+{
+    background-position: -2px 0px;
+}
+
+.next
+{
+    background: url('../Global_imgs/FlechaSiguiente.png') no-repeat ;
+    background-position: 0 0;
+    right: 0;
+}
+
+.next:hover
+{
+    background-position: 2px 0px;
+}
+
+@media screen (device-width: 320px), (device-height: 640px) 
+  and (orientation: portrait) {
+    .prev, .next {
+        top: 22%;
+		background-size:78%;
+        }
+		.prev, .next a{
+		background-size:78%;
+        }
+}
+
+/*Estilos de cabezal codificado se usan ecaso de no utilizar la img cabezal*/
+.cabezal{
+    background-color: #87C556;
+    color: #FFFFFF;
+    font-family: verdana,sans-serif;
+    display: flex;
+    padding: 40px;
+    font-size: 95px
+}
+.cabezal h1{
+    font-size: 0.8em;
+}
+.cabezal h1 span{
+    font-size: 0.45em;
+}
+ .cabezal font {
+    font-size: 0.45em;
+    font-weight: lighter;
+    vertical-align: text-bottom;
+    padding: 47px 45px 0px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.arcoiris{
+    width: 100%;
+    height: 50px;
+    background: #123456;/*linear-gradient(left, #f00, #f80, #ff0, #0f0, #00f, #60f, #c0f); esto es para el arcoiris*/
+}
+
+/*Estilos para  secciones de tablas*/
+#cuerpo{
+    width: 100%;
+    height: auto;
+    font-size: 13px;
+}
+table td, table th{
+    padding: 5px 0px 5px 20px;
+    font-size:0.9em;
+}
+table a {
+    text-decoration: none;
+    color: #000;
+}
+table a:hover {
+    text-decoration: none;
+    color: #2FB3EA;
+}
+#cuerpo  table th{
+    letter-spacing:1px;
+    font-size:1.3em;
+}
+/*Estilos para tablas rotograbado*/
+
+.Rot1{
+    width: 80%;
+    margin: 50px auto;
+    text-align: left;
+}
+.Rot1 .titth
+{
+    background-color:#69bd45;
+    color:#FFFFFF;
+    font-family: Arial;
+    font-size: 14pt;
+    font-weight:bold;
+        width: 40%;
+}
+
+.Rot1 .Subtitth{
+    background-color:#FFFFFF;
+    color:#87C557;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight:bold;
+}
+
+.Rot1 tbody tr:nth-child(odd) {
+    background-color: #D8EBCB;
+    color:#000000;
+}
+
+.Rot1 a.InfoCatLink {
+    font-weight: bold;
+	color:#333;
+}
+.Rot1 a.InfoCatLink:hover {
+    font-weight: bold;
+    color:#409002;
+}
+.Rot1 a.InfoCatLink:after {
+    font-family: FontAwesome;
+    content: "\f105";
+	padding:5px;
+}
+
+.Rot1 [data-label="Línea"]{
+    color: #409002;
+}
+@media screen and (max-width: 480px) {
+    .Rot1 [data-label="Línea"]{
+        color: #409002;
+        border-bottom: 3px solid;
+    }
+}
+/* Estilos para tablas SERIGRAFIA*/
+.Ser{
+    width: 80%;
+    margin: 50px auto;
+    text-align: left;
+}
+.Ser .titth
+{
+    background-color:#D02026;
+    color:#FFFFFF;
+    font-family: Arial;
+    font-size: 14pt;
+    font-weight:bold;
+    width:20%;
+}
+
+.Ser .Subtitth{
+    background-color:#FFFFFF;
+    color:#D02026;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight:bold;
+}
+
+.Ser tbody tr:nth-child(odd) {
+    background-color:#FCD6D8;
+    color:#000000;
+}
+
+.Ser a.InfoCatLink {
+    font-weight: bold;
+	color:#333;
+}
+.Ser a.InfoCatLink:hover {
+    font-weight: bold;
+    color:#b30505;
+}
+.Ser a.InfoCatLink:after {
+    font-family: FontAwesome;
+    content: "\f105";
+	padding:5px;
+}
+
+.Ser [data-label="Descripción"]{
+    color:#b30505;
+}
+
+@media screen and (max-width: 480px) {
+    .Ser [data-label="Descripción"]{
+    color:#b30505;
+    border-bottom: 3px solid;
+    }
+}
+/* Estilos para tablas Quimica Varn*/
+img.tablaQ {
+    width: 99%;
+    margin: 25px 8px;
+}
+
+.QuiV{
+    width: 95%;
+    margin: 50px auto;
+    text-align: left;
+}
+.QuiV .titth
+{
+    background-color:#25327B;
+    color:#FFFFFF;
+    font-family: Arial;
+    font-size: 14pt;
+    font-weight:bold;
+        width: 30%;
+}
+
+.QuiV .Subtitth{
+    background-color:#FFFFFF;
+    color:#00AEEF;
+    font-family: Arial;
+    font-size: 12pt;
+    font-weight:bold;
+}
+
+.QuiV tbody tr:nth-child(odd) {
+    background-color:#E4E6EF;
+    color:#000000;
+}
+
+.fa-circle{
+    color:#25327B;
+}
+
+.QuiVB{
+    width:60%;
+    margin: 50px;
+    text-align: left;
+    line-height: 2.3;
+    font-size: .9em;
+}
+.QuiVB .titth
+{
+    background-color:#25327B;
+    color:#FFFFFF;
+    font-family: Arial;
+    font-size: 14pt;
+    font-weight:bold;
+    width: 30%;
+    line-height:1;
+}
+.QuiVB span {
+    color: #25327B;
+    font-weight:bold;
+}
+.QuiV a.InfoCatLink {
+    font-weight: bold;
+	color:#333;
+}
+.QuiV a.InfoCatLink:hover {
+    font-weight: bold;
+        color: #053bb3;
+
+}
+.QuiV a.InfoCatLink:after {
+    font-family: FontAwesome;
+    content: "\f105";
+	padding:5px;
+}
+
+.QuiV [data-label="Descripción"]{
+        color: #053bb3;
+}
+
+@media screen and (max-width: 480px) {
+.QuiVB{
+    width:100%;
+    margin: 5px;
+    text-align: left;
+    line-height: 2.3;
+    font-size: .9em;
+    padding: 10px
+}
+img.tablaQ {
+    width: 90%;
+    margin: 25px 18px;
+}
+}
+
+.QuiVR{
+    width:75%;
+    margin: 50px;
+    text-align: left;
+    line-height: 2.3;
+    font-size: .9em;
+}
+.QuiVR .titth
+{
+    background-color:#25327B;
+    color:#FFFFFF;
+    font-family: Arial;
+    font-size: 14pt;
+    font-weight:bold;
+    width: 30%;
+    line-height:1;
+}
+.QuiVR tbody tr:nth-child(odd) {
+    background-color:#E4E6EF;
+    color:#000000;
+}
+.QuiVR ol {
+        padding: 15px 30px 15px 70px;
+}
+.QuiVR span {
+    color: #25327B;
+    font-size: 1.1em;
+    font-weight:bold;
+}
+
+@media screen and (max-width: 480px) {
+    .QuiVR{
+        width:100%;
+        margin: 5px;
+        text-align: left;
+        line-height: 2.3;
+        font-size: .9em;
+        padding: 10px
+    }
+    .QuiVR ol {
+       padding: 15px;
+       text-align: justify;
+    }
+    .QuiV [data-label="Descripción"]{
+            color: #053bb3;
+            border-bottom: 3px solid;
+    }
+}
+
+
+/* FIN Estilos para tablas Quimica Varn*/
+                /*/////////////MEDIA PARA TABLAS RESPONSIVAS GENERAL/////////////////////////////////*/
+@media screen and (max-width: 480px) {
+    table {
+        border:0;
+    }
+
+    table tr {
+        margin-bottom: 1px;
+        display: block;
+        border-bottom: 2px solid #777777;
+
+    }
+
+    table td {
+        display: block;
+        text-align: right;
+        font-size: 0.7em;
+        border-bottom: 1px solid #ccc;
+        padding:5px 7px;
+    }
+
+    table td:last-child {
+        border-bottom: 0;
+    }
+
+    table td:before {
+        content: attr(data-label);
+        float: left;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+ table thead tr:nth-child(1)  {
+        background-color: #FFFFFF;
+    }
+    table thead tr:nth-child(2)  {
+        display: none;
+    }
+
+}
+ /*//////////////////////////////////////////////*/
+
+/* FIN Estilos para tablas rotograbado*/
+
+.logofirma {
+    width: 100%;
+    height: 150px;
+}
+.logofirma img{
+    float: right;
+    margin:15px 80px;
+}
+.conten{
+      margin: 0 auto;
+      color: #333333;
+      margin-top:5%;
+      width: 85%;
+      height: 100%
+      }
+
+.conten li {
+    line-height: 1.9;
+}
+
+.conten img{width: 100%;}
+
+footer{
+    background-color: #34495E;
+    color: #FFFFFF;
+    width: 100%;
+    font-size: 1em;
+    position: absolute;
+}
+    footer div {
+        padding: 10px;
+        border-bottom: 1px solid;
+        min-height: 160px;
+    }
+    footer div a {
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            list-style: none;
+            list-style-image: none;
+            width: 105px;
+            text-align: left;
+    }
+    footer li {
+    list-style: none;
+    text-align: left;
+    padding-left: 15px;
+    }
+    ul.submenu li {
+    padding: 0px;
+    }
+    footer div li a {
+    font-size: .7em;
+    font-weight: normal;
+    text-align: left !important;
+    }
+footer.w3-row.boxfooter {
+    position: relative;
+    bottom: 0px;
+}
+footer.w3-row.boxfooter div {
+    display: flex;
+}
+@media screen and (max-width: 435px) {
+    footer {
+    position:relative;
+    bottom: 0;
+    }
+    footer div {
+           min-height: 35px !important;
+            position: static;
+    }   
+}
+@media screen and (max-width:300px) {
+
+#cuerpo{
+    width: 100%;
+    min-height: 500px;
+    font-size: 13px;
+}
+.logofirma img {
+    float: right;
+    margin: 15px 20px;
+    width: 80%;
+}
+}
+
+@media screen and (max-width:1104px) {	
+div#divGlobalContent {
+    margin-top: 50px;
+}			
+	div#divMenuSuperior {
+			width:60% !important;
+			float: right;
+			padding-top: 30px;
+		}
+		div#divMenuSuperior div {
+			padding: 0px 10px;
+			}
+	header {
+    margin-top: 47px;
+	}
+	/*.buscador{
+		top:55px;
+	}*/
+}
+/* Ocultamos la sección de resultados del buscador google que son patrocinados*/
+.gsc-adBlock{ 
+        display: none !important; 
+} 
+
+.gcsc-branding-text,.gcsc-branding-img-noclear,.gcsc-branding-text .gcsc-branding-text-name{ 
+        display:none; 
+} 
+
+td.gsc-search-button {
+    display: none;
+}
+
+td.gsib_b {
+    display: none;
+}
+
+form .gsc-search-box.gsc-search-box-tools{
+  	display:none;
+}
+.gsc-results-wrapper-overlay.gsc-results-wrapper-visible table tr {
+    border: 0px;
+}
+.gsc-results-wrapper-overlay.gsc-results-wrapper-visible table td {
+    border: 0px;
+}
+.buscador {
+    display: block;
+    margin: 0 0 0 auto;
+    width: 20px;
+    box-sizing: border-box;
+    border: 0px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: transparent;
+    background-image: url(../Global_Imgs/lupa_azul.png);
+    background-size: 30px;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    z-index: 10000;
+}
+
+.lupagris{
+  background-image: url('../Global_Imgs/lupa.png');
+  background-size:30px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+.buscador:focus {
+  width: 230px;
+}
+
+@media only screen and (min-width: 768px){
+div#divMenuSuperior div {
+    padding: 0px 20px;
+	}
+	
+}
+@media screen and (max-width:980px) {
+	.buscador {
+display: block;
+    margin: 0 0 0 auto;
+    padding: 10px 20px 8px 24px;
+    position: absolute;
+    right: 15px;
+    top: 60px;
+    z-index: 10000;
+		
+		}
+		
+		.buscador:focus {
+			width: 95%;
+            padding-left: 45px;
+			}
+		
+}
+/* Fin estilos google*/
+
+
+
+
+@media screen and (max-width:768px){
+	.container{
+		margin-top: 70px;
+	}
+	div#divLogoGSHeader img {
+    width: 82%;
+	}
+	
+}
+
+@media screen and (max-width:480px) {
+
+    .container {
+    position: relative;
+    padding: 0px !important;
+    margin: 30px 0px 40px;
+    }
+    footer.w3-row.boxfooter div {
+    display: flex;
+    margin: 6px;
+}
+    .w3-container, .w3-panel {
+     padding:  0px !important;
+    }
+	
+	#pleca img {
+    padding-top: 12px;
+    width: 85%;
+	}
+
+}

@@ -1,0 +1,167 @@
+﻿.fontBase 
+{
+	font-family: Verdana;
+	font-size: 8pt;
+}
+
+.clsMenuBar
+{
+	border-right: 0px;
+	border-top: 0px;
+	border-left: 0px;
+	border-bottom: 0px;
+	background-color: #18336A;
+}	
+
+.clsMenuBarCell {
+	font:normal normal bolder 8pt sans-serif;
+	color:white;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 4px;
+	
+}
+
+.clsMenu {
+	background-color:#18336A;
+	position: absolute;
+	display: none;
+	border-color:#18336A;
+	border:1 solid #18336A;
+	width:175;
+}
+
+.clsMenuItem
+{
+	padding-right: 4px;
+	display: block;
+	padding-left: 6px;
+	z-index: 500;
+	background-image: none;
+	padding-bottom: 3px;
+	font: bolder 8pt sans-serif;
+	width: 100%;
+	cursor: hand;
+	color: white;
+	position: absolute;
+	height: 18px;
+	background-color: #18336a;
+	text-decoration: none;
+}
+
+.clsMenuInfo {
+	background-color:BLACK;
+	font:normal normal bolder 8pt sans-serif;
+	color:#00ff00;
+	height: 18px;
+	padding-bottom: 3px;
+	padding-left: 6px;
+	padding-right: 4px;
+	padding-top: 4px;
+	text-decoration: none;	
+}
+
+.texto
+{
+    FONT: 8pt , verdana;
+    COLOR: black;
+    MARGIN-LEFT: 0px;    
+    MARGIN-RIGHT: 0px;
+    TEXT-ALIGN: justify;
+}
+
+.TextBox
+{
+    FONT: 8pt , verdana;
+    COLOR: black;
+    MARGIN-LEFT: 0px;    
+    MARGIN-RIGHT: 0px;
+    TEXT-ALIGN: right;
+}
+
+.lblAlerta
+{
+	FONT: bold 10pt , verdana;    
+    COLOR: Red;
+    MARGIN-LEFT: 2px;    
+    MARGIN-RIGHT: 2px;
+    TEXT-ALIGN: left;
+}
+
+.lblError
+{
+    FONT: bold 10pt , verdana;
+    COLOR: Red;
+    MARGIN-LEFT: 2px;    
+    MARGIN-RIGHT: 2px;
+    TEXT-ALIGN: left;
+}
+
+.dentro_tabla
+{
+    FONT: 8pt , verdana;
+    COLOR: black;
+    MARGIN-LEFT: 15px;
+    MARGIN-RIGHT: 15px;    
+}
+
+.boton
+{
+    FONT: 8pt , verdana;
+    COLOR: black;
+    MARGIN-LEFT: 0px;
+    MARGIN-RIGHT: 0px;
+    TEXT-ALIGN: center;
+}
+
+.piepag
+{
+    FONT: 8pt , verdana;
+    COLOR: #18336a;
+    MARGIN-LEFT: 15px;    
+    MARGIN-RIGHT: 15px;
+    TEXT-ALIGN: center;
+}
+
+.subtitulo
+{
+    FONT: bold 10pt , verdana;
+    COLOR: red;
+    TEXT-ALIGN: center;
+}
+
+.tittablas
+{
+    FONT: bold 8pt , verdana;
+    COLOR: white;
+    TEXT-ALIGN: left;
+}
+
+A:link
+{
+	text-decoration: none;
+	color: blue;
+}
+A:visited
+{
+	text-decoration: none;
+	color: #16387c;
+}
+A:hover
+{
+	text-decoration: underline;
+}
+S
+.FieldSet
+{
+}
+
+.Legend
+{
+	font-weight: bold;
+	font-size: 7pt;
+	color: sienna;
+	letter-spacing: 2pt;
+	background-color: #ece9d8;
+}

@@ -1,0 +1,420 @@
+﻿
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Es_Master.master.cs" Inherits="WebSanchez2016.es.Es_Master" %>
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<!doctype html>
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-language" content="es-mx,en" />
+    <meta name="description" content="Grupo sanchez, lider en Tintas y materiales en el mercado mexicano" />
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <link href="../Content/Global.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+  <form id="form1" runat="server">
+    <asp:ScriptManager ID="SMMenuSuperior" runat="server" />
+    <!--div id="divGlobal">
+<div id="divGlobalHeader"-->
+          <div class="w3-container">
+            <div class="w3-row">
+                 <div class="w3-col l3" id="divLogoGSHeader1">
+                    <img  src="/GS/Global_Imgs/GS_297x54.png" alt="Grupo S&aacute;nchez" class="estiloMano" onclick="window.open('~/es/Home.aspx','_self')" title="Grupo S&aacute;nchez"/>
+                </div>
+
+<!--<div id="pleca">-->
+ <div class="w3-col l9">
+            <div class="no-print w3-container w3-margin-top w3-margin-left" id="divMenuSuperior1">
+           <div class="w3-hide-small w3-hide-medium">
+                                <telerik:RadMenu ID="RMTintasyMateriales" EnableEmbeddedBaseStylesheet="false" EnableEmbeddedSkins="false" runat="server" Font-Names="Arial">
+                                    <ExpandAnimation Type="OutBack" />
+                                    <CollapseAnimation Type="InBack" />
+                                </telerik:RadMenu>
+
+                                <telerik:RadMenu  EnableEmbeddedBaseStylesheet="false" EnableEmbeddedSkins="false" ID="RMEquipo" runat="server" Font-Names="Arial">
+                                    <Items>
+                                        <telerik:RadMenuItem runat="server" Text="Equipo">
+                                            <Items>
+                                                <telerik:RadMenuItem runat="server" Text="GS Digital">
+                                                    <Items>
+                                                        <telerik:RadMenuItem runat="server" 
+                                                            NavigateUrl="~/es/Equipo/GS_Digital/Compaginadoras_y_Encuadernadoras_Duplo.aspx" 
+                                                            Text="Compaginadoras y encuadernadoras Duplo">
+                                                        </telerik:RadMenuItem>
+                                                        <telerik:RadMenuItem runat="server" 
+                                                            NavigateUrl="~/es/Equipo/GS_Digital/Dobladoras_y_Ecuadernadoras_Baum.aspx" 
+                                                            Text="Dobladoras y encuadernadoras Baum">
+                                                        </telerik:RadMenuItem>
+                                                        <telerik:RadMenuItem runat="server" Text="Prensas digitales HP" 
+                                                            NavigateUrl="~/es/Equipo/GS_Digital/Prensas_Digitales_HP.aspx">
+                                                        </telerik:RadMenuItem>
+                                                        <telerik:RadMenuItem runat="server" 
+                                                            NavigateUrl="~/es/Equipo/GS_Digital/Prensas_Digitales_Konica.aspx" 
+                                                            Text="Prensas digitales Konica">
+                                                        </telerik:RadMenuItem>
+                                                    </Items>
+                                                </telerik:RadMenuItem>
+                                                <telerik:RadMenuItem runat="server" Text="CTPs térmicos Kodak" 
+                                                    NavigateUrl="~/es/Equipo/CTPs_Termicos_Kodak.aspx">
+                                                </telerik:RadMenuItem>
+                                                <telerik:RadMenuItem runat="server" 
+                                                    NavigateUrl="~/es/Equipo/Prensas_Offset_Komori.aspx" 
+                                                    Text="Prensas offset Komori">
+                                                </telerik:RadMenuItem>
+                                                <telerik:RadMenuItem runat="server" 
+                                                    NavigateUrl="~/es/Equipo/Suajadoras_y_Dobladoras_Brausse.aspx" 
+                                                    Text="Suajadoras y dobladoras Brausse">
+                                                </telerik:RadMenuItem>
+                                                <telerik:RadMenuItem runat="server" 
+                                                    NavigateUrl="http://201.116.19.37:8484/Gimweb/PC/Inici.aspx" Owner="" 
+                                                    Target="_blank" Text="Reporte de servicio">
+                                                </telerik:RadMenuItem>
+                                            </Items>
+                                        </telerik:RadMenuItem>
+                                    </Items>
+                                    <ExpandAnimation Type="OutBack" />
+                                    <CollapseAnimation Type="InBack" />
+                                </telerik:RadMenu>
+
+                                <telerik:RadMenu ID="RMContactos" runat="server" Font-Names="Arial">
+                                    <ExpandAnimation Type="OutBack" />
+                                    <CollapseAnimation Type="InBack" />
+                                </telerik:RadMenu>
+
+                                <telerik:RadMenu ID="RMAcercaDeGS" runat="server" Font-Names="Arial">
+                                </telerik:RadMenu>
+ 
+                                <telerik:RadMenu ID="RMHome" runat="server" Font-Names="Arial"></telerik:RadMenu>
+
+                                <telerik:RadMenu ID="RMBuscar" runat="server" Visible="false" 
+                                    Font-Names="Arial"></telerik:RadMenu>
+                            </div>  
+
+                                    </div>
+                                    	<!--</div>-->
+                                        </div>
+      
+          </div>
+ <!-- INICIO MENU RESPONSIVE --><!-- INICIO MENU RESPONSIVE -->
+
+    <div class="w3-bar w3-hide-large">
+    	<div class="w3-block w3-mobile">
+    		<div class="nav">
+				<span id="button-menu" class="fa fa-bars"></span>
+				<nav class="navegacion">
+					<ul class="menu">
+					<!-- TITULAR -->
+						<li class="title-menu">Todas las categorias</li>
+					<!-- TITULAR -->
+
+						<li class="item-submenu" menu="1">
+							<a href="#" runat="server"><span class="fa fa-paint-brush icon-menu"></span>Tintas y Materiales</a>
+							<ul class="submenu">
+								<li class="title-menu"><span class="fa fa-paint-brush icon-menu"></span>Tintas y Materiales</li>
+								<li class="go-back">Atras</li>
+
+								<li class="item-subsubmenu" menu="1_1">
+								<a href="#">Banda Angosta</a>
+									<ul class="subsubmenu">
+										<li class="title-menu"><span class="icon-menu"></span>Banda Angosta</li>
+										<li class="go-back">Atras</li>
+
+										<li><a href="~/es/Tintas_y_Materiales/Banda_Angosta/Tintas_Base_Agua.aspx" runat="server">Tintas base agua</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Banda_Angosta/Tintas_Base_Solvente.aspx" runat="server">Tintas base solvente</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Banda_Angosta/Tintas_UV.aspx" runat="server">Tintas UV</a></li>
+									</ul>
+								</li>
+								<li><a href="~/es/Tintas_y_Materiales/Digital_Gran_Formato.aspx" runat="server">Digital Gran Formato</a></li>
+								<li><a href="~/es/Tintas_y_Materiales/Flexografia.aspx" runat="server">Flexografía</a></li>
+								<li class="item-subsubmenu" menu="1_2">
+								<a href="#">Heatset</a>
+									<ul class="subsubmenu">
+										<li class="title-menu"><span class="icon-menu"></span>Heatset</li>
+										<li class="go-back">Atras</li>
+
+										<li><a href="~/es/Tintas_y_Materiales/Heatset/Mantillas_Day.aspx" runat="server">Mantillas Day</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Heatset/Placas_Kodak.aspx" runat="server">Placas Kodak</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Heatset/Placas_Tecpro.aspx" runat="server">Placas Tecpro</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Heatset/Quimicos_Varn.aspx" runat="server">Químicos Varn</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Heatset/Tintas.aspx" runat="server">Tintas</a></li>
+									</ul>
+								</li>
+								<li class="item-subsubmenu" menu="1_3">
+								<a href="#">Offset Hoja</a>
+									<ul class="subsubmenu">
+										<li class="title-menu"><span class="icon-menu"></span>Offset Hoja</li>
+										<li class="go-back">Atras</li>
+
+										<li><a href="~/es/Tintas_y_Materiales/Offset_Hoja/Barnices_Base_Agua.aspx" runat="server">Barnices base agua</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Offset_Hoja/Barnices_UV.aspx" runat="server">Barnices UV</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Heatset/Mantillas_Day.aspx" runat="server">Mantillas Day</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Offset_Hoja/Placas_Kodak.aspx" runat="server">Placas Kodak</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Offset_Hoja/Placas_Tecpro.aspx" runat="server">Placas Tecpro</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Heatset/Quimicos_Varn.aspx" runat="server">Químicos Varn</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Offset_Hoja/Tintas_Convencionales.aspx" runat="server">Tintas convencionales</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Offset_Hoja/Tintas_UV.aspx" runat="server">Tintas UV</a></li>
+									</ul>
+								</li>
+								<li class="item-subsubmenu" menu="1_4">
+								<a href="#">Periódicos</a>
+									<ul class="subsubmenu">
+										<li class="title-menu"><span class="icon-menu"></span>Periódicos</li>
+										<li class="go-back">Atras</li>
+
+										<li><a href="~/es/Tintas_y_Materiales/Heatset/Mantillas_Day.aspx" runat="server">Mantillas Day</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Periodicos/Placas_Kodak.aspx" runat="server">Placas Kodak</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Periodicos/Placas_Tecpro.aspx" runat="server">Placas Tecpro</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Heatset/Quimicos_Varn.aspx" runat="server">Químicos Varn</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Periodicos/Tintas.aspx" runat="server">Tintas</a></li>
+									</ul>
+								</li>
+								<li><a href="#">Rotograbado</a></li>
+								<li class="item-subsubmenu" menu="1_5">
+								<a href="#">Serigrafía</a>
+									<ul class="subsubmenu">
+										<li class="title-menu"><span class="icon-menu"></span>Serigrafía</li>
+										<li class="go-back">Atras</li>
+
+										<li><a href="~/es/Tintas_y_Materiales/Serigrafia/Equipo_Graficos.aspx" runat="server">Equipos gráficos</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Serigrafia/Equipo_Textiles.aspx" runat="server">Equipos textiles</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Serigrafia/Materiales_Graficos.aspx" runat="server">Materiales gráficos</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Serigrafia/Matriales_Textiles.aspx" runat="server">Materiales textiles</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Serigrafia/Tintas_Graficos.aspx" runat="server">Tintas gráficos</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Serigrafia/Tintas_Textiles.aspx" runat="server">Tintas textiles</a></li>
+										<li><a href="~/es/Tintas_y_Materiales/Serigrafia/SIP.aspx" runat="server">SIP (Sistema de Igualación Plastisol)</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="item-submenu" menu="2">
+							<a href="#"><span class="fa fa-industry icon-menu"></span>Equipo</a>
+							<ul class="submenu">
+								<li class="title-menu"><span class="fa fa-industry icon-menu"></span>Equipo</li>
+								<li class="go-back">Atras</li>
+
+								<li class="item-subsubmenu" menu="2_1">
+								<a href="#">GS Digital</a>
+									<ul class="subsubmenu">
+										<li class="title-menu"><span class="icon-menu"></span>GS Digital</li>
+										<li class="go-back">Atras</li>
+
+										<li><a href="~/es/Equipo/GS_Digital/Compaginadoras_y_Encuadernadoras_Duplo.aspx" runat="server">Compaginadoras y encuadernadoras Duplo</a></li>
+										<li><a href="~/es/Equipo/GS_Digital/Dobladoras_y_Ecuadernadoras_Baum.aspx" runat="server">Dobladoras y encuadernadoras Baum</a></li>
+										<li><a href="~/es/Equipo/GS_Digital/Prensas_Digitales_HP.aspx" runat="server">Prensas digitales HP</a></li>
+										<li><a href="~/es/Equipo/GS_Digital/Prensas_Digitales_Konica.aspx" runat="server">Prensas digitales Konica</a></li>
+									</ul>
+								</li>
+								<li><a href="~/es/Equipo/CTPs_Termicos_Kodak.aspx" runat="server">CTPs Térmicos Kodak</a></li>
+								<li><a href="~/es/Equipo/Prensas_Offset_Komori.aspx" runat="server">Prensas Offset Komori</a></li>
+								<li><a href="~/es/Equipo/Suajadoras_y_Dobladoras_Brausse.aspx" runat="server">Suajadoras y Dobladoras Brausse</a></li>
+								<li><a href="http://201.116.19.37:8484/Gimweb/PC/Inici.aspx" runat="server">Reporte de Servicio</a></li>
+							</ul>
+						</li>
+						<li class="item-submenu" menu="3">
+							<a href="#"><span class="fa fa-envelope icon-menu"></span>Contactos</a>
+							<ul class="submenu">
+								<li class="title-menu"><span class="fa fa-envelope icon-menu"></span>Contactos</li>
+								<li class="go-back">Atras</li>
+
+								<li><a href="~/es/Contactos/Credito.aspx" runat="server">Crédito</a></li>
+								<li><a href="~/es/Contactos/Directores.aspx" runat="server">Directores</a></li>
+								<li class="item-subsubmenu" menu="3_1">
+								<a href="#">Líneas</a>
+									<ul class="subsubmenu">
+										<li class="title-menu"><span class="icon-menu"></span>Líneas</li>
+										<li class="go-back">Atras</li>
+
+										<li><a href="~/es/Contactos/Equipo.aspx" runat="server">Equipo</a></li>
+										<li><a href="~/es/Contactos/Offset_hoja_heatset_periodicos.aspx" runat="server">Offset hoja, heatset y periódicos</a></li>
+										<li><a href="~/es/Contactos/Rotograbado_flexografia.aspx" runat="server">Rotograbado y flexografía</a></li>
+										<li><a href="~/es/Contactos/Serigrafía_Digital_Gran_Formato.aspx" runat="server">Serigrafía y digital de gran formato</a></li>
+									</ul>
+								</li>
+								<li class="item-subsubmenu" menu="3_2">
+								<a href="#">México</a>
+									<ul class="subsubmenu">
+										<li class="title-menu"><span class="icon-menu"></span>México</li>
+										<li class="go-back">Atras</li>
+
+										<li><a href="~/es/Contactos/Distribuidores.aspx" runat="server">Distribuidores</a></li>
+										<li><a href="~/es/Contactos/PlantaCDMX.aspx" runat="server">Planta CDMX (Corporativo)</a></li>
+										<li><a href="~/es/Contactos/PlantaTepeji.aspx" runat="server">Planta Tepeji</a></li>
+										<li><a href="~/es/Contactos/Sucursales.aspx" runat="server">Sucursales</a></li>
+									</ul>
+								</li>
+								<li><a href="~/es/Contactos/Colombia.aspx" runat="server">GS Colombia</a></li>
+								<li><a href="~/es/Contactos/Costa_Rica.aspx" runat="server">GS Costa Rica</a></li>
+								<li><a href="~/es/Contactos/El_Salvador.aspx" runat="server">GS El Salvador</a></li>
+								<li class="item-subsubmenu" menu="3_3">
+								<a href="#">Guatemala</a>
+									<ul class="subsubmenu">
+										<li class="title-menu"><span class="icon-menu"></span>Guatemala</li>
+										<li class="go-back">Atras</li>
+
+										<li><a href="~/es/Contactos/Guatemala.aspx" runat="server">GS Guatemala</a></li>
+										<li><a href="~/es/Contactos/Guatemala_Distribuidores.aspx" runat="server">Distribuidores</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="item-submenu" menu="4">
+							<a href="#"><span class="fa fa-address-card icon-menu"></span>Acerca de GS</a>
+							<ul class="submenu">
+								<li class="title-menu"><span class="fa fa-address-card icon-menu"></span>Acerca de GS</li>
+								<li class="go-back">Atras</li>
+
+								<li class="item-subsubmenu" menu="4_1">
+								<a href="#">Presentación GS</a>
+									<ul class="subsubmenu">
+										<li class="title-menu"><span class="icon-menu"></span>Presentación GS</li>
+										<li class="go-back">Atras</li>
+
+										<li> <a href="~/es/Acerca_de_GS/GS.aspx" runat="server"> Español</a> </li>
+										<li> <a href="~/es/Acerca_de_GS/GS_en.aspx" runat="server"> English </a> </li>
+									</ul>
+								</li>
+								<li><a href="~/es/Planta_Tepeji.aspx" runat="server">Video Planta Tepeji</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="~/es/Home.aspx" runat="server"><span class="fa fa-home icon-menu"></span>Home</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+ 		</div>
+
+<!-- FIN MENU RESPONSIVE --> 
+
+  
+	      
+            </div>
+             <div class="clear"></div>
+             </div>
+        <div id="divGlobalContent">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+        </div>
+<!-- Inicia  Footer  estático -->
+<div class="w3-hide-small w3-hide-medium">
+        <div class="no-print" id="divGlobalFooter">
+            <div id="divtMenuFooter">
+                <table id="tMenuFooter">
+                    <tr>
+                        <td>
+                            <telerik:RadMenu ID="RMClientes" runat="server" Font-Names="Arial">
+                                <DefaultGroupSettings ExpandDirection="Up"/>
+                                <Items>
+                                    <telerik:RadMenuItem runat="server" Text="Clientes">
+                                        <Items>
+                                            <telerik:RadMenuItem runat="server" Text="Descarga factura contado" 
+                                                NavigateUrl="https://www.sanchez.com.mx/portalfel/wpdescargafactticket.aspx" rel="noopener" 
+                                                Target="_blank">
+                                            </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" Text="Factura crédito">
+                                                <Items>
+                                                    <telerik:RadMenuItem runat="server" Text="Registro" 
+                                                        NavigateUrl="https://www.sanchez.com.mx/portalfel/wpsolicitudregistro.aspx" rel="noopener" 
+                                                        Target="_blank">
+                                                    </telerik:RadMenuItem>
+                                                    <telerik:RadMenuItem runat="server" Text="Descarga" 
+                                                        NavigateUrl="https://www.sanchez.com.mx/portalfel/wplogin.aspx" rel="noopener" Target="_blank">
+                                                    </telerik:RadMenuItem>
+                                                </Items>
+                                            </telerik:RadMenuItem>
+                                            <telerik:RadMenuItem runat="server" 
+                                                NavigateUrl="https://www.sanchez.com.mx/creditos/cplogin.aspx" rel="noopener" Target="_blank" 
+                                                Text="Solicitud de crédito">
+                                            </telerik:RadMenuItem>
+                                        </Items>
+                                    </telerik:RadMenuItem>
+                                </Items>
+                                <ExpandAnimation Type="OutBack" />
+                                <CollapseAnimation Type="InBack" />
+                            </telerik:RadMenu>
+                        </td>
+                        <td>
+                            <telerik:RadMenu ID="RMProveedores" runat="server" Font-Names="Arial">
+                                <DefaultGroupSettings ExpandDirection="Up" />
+                                <Items>
+                                    <telerik:RadMenuItem runat="server" NavigateUrl="~/es/Home.aspx" Owner="RMProveedores" Text="Proveedores">
+                                        <Items>
+                                            <telerik:RadMenuItem runat="server" 
+                                                NavigateUrl="https://www.sanchez.com.mx/buzondigital/acceso/signup" Owner="" rel="noopener" Target="_blank" 
+                                                Text="Buzón digital CFDI">
+                                            </telerik:RadMenuItem>
+                                        </Items>
+                                    </telerik:RadMenuItem>
+                                </Items>
+                                <ExpandAnimation Type="OutBack" />
+                                <CollapseAnimation Type="InBack" />
+                            </telerik:RadMenu>
+                        </td>
+                        <td>
+                            <telerik:RadMenu ID="RMMapa" runat="server" Font-Names="Arial"></telerik:RadMenu>
+                        </td>
+                        <td>
+                            <telerik:RadMenu ID="RMEtica" runat="server" Font-Names="Arial">
+                                <DefaultGroupSettings ExpandDirection="Up" />
+                                <ExpandAnimation Type="OutBack" />
+                                <CollapseAnimation Type="InBack" />
+                            </telerik:RadMenu>
+                        </td>
+                        <td>
+                            <telerik:RadMenu ID="RMPrivacidad" runat="server" Font-Names="Arial">
+                            </telerik:RadMenu>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+</div>
+<!-- Finaliza  Footer  estatico -->
+	    
+   
+<!-- Inicia  Footer  responsivo -->
+
+<div class="w3-bar w3-hide-large">   
+	<div class=" w3-block w3-center w3-mobile">
+		<footer class="w3-row boxfooter" >
+			<div class="w3-col l4 m6 s12"><a href="~/es/Tintas_y_Materiales/Serigrafia/Tintas_Textiles.aspx#" > Clientes </a>
+					<ul>
+						<li><a href="https://www.sanchez.com.mx/portalfel/wpdescargafactticket.aspx" rel="noopener" target="_blank">Descarga factura contado</a></li>
+						<li><a href="~/es/Tintas_y_Materiales/Serigrafia/Tintas_Textiles.aspx#" >Factura crédito</a>
+							<ul class="submenu">
+								<li><a href="https://www.sanchez.com.mx/portalfel/wpsolicitudregistro.aspx"  rel="noopener" target="_blank">Registro</a></li>
+								<li><a href="https://www.sanchez.com.mx/portalfel/wplogin.aspx"  rel="noopener" target="_blank">Descarga</li>
+							</ul>
+						</li>
+						<li><a href="https://www.sanchez.com.mx/creditos/cplogin.aspx" rel="noopener" target="_blank">Solicitud de crédito</a></li>
+					</ul></div>
+			<div class="w3-col l4 m6 s12"><a href="~/es/Home.aspx" >Proveedores</a>
+					<ul>
+						<li><a href="https://www.sanchez.com.mx/buzondigital/acceso/signup" rel="noopener" target="_blank">Buzón digital CFDI</a></li>
+					</ul></div>
+			<div class="w3-col l4 m6 s12"><a href="~/es/#" >Ética</a>
+					<ul>
+						<li><a href="~/es/Etica/Codigo_Empleados.aspx" >Código empleados</a></li>
+						<li><a href="~/es/Etica/Codigo_Proveedores.aspx" >Código proveedores</a></li>
+					</ul></div>
+			<div class="w3-col l4 m6 s12"><a href="~/es/Privacidad/Privacidad.aspx" >Privacidad</a></div>
+		</footer>
+
+	</div>
+</div>
+
+<!-- Finaliza  Footer  responsivo -->
+    <!--</div>-->
+   </form>
+
+        <div id="google_search_bar" style="display:none" ><gcse:search></gcse:search></div>
+        <input type="text" name="buscador" id="buscador" placeholder="Búsqueda en Sánchez" class="buscador" autocomplete="off" />
+        <script type="text/javascript" src="/gs/Content/jquery-1.12.1.min.js"></script>
+        <script type="text/javascript">
+            $("#button-menu").click(function () { "fa fa-bars" == $("#button-menu").attr("class") ? ($(".navegacion").css({ width: "100%", background: "rgba(0,0,0,.5)" }), $("#button-menu").removeClass("fa fa-bars").addClass("fa fa-close"), $(".navegacion .menu").css({ left: "0px" }), $("#buscador").addClass("lupagris"), $("#buscador").prop("disabled", !0)) : ($(".navegacion").css({ width: "0%", background: "rgba(0,0,0,.0)" }), $("#button-menu").removeClass("fa fa-close").addClass("fa fa-bars"), $(".navegacion .submenu").css({ left: "-320px" }), $(".navegacion .menu").css({ left: "-320px" }), $("#buscador").prop("disabled", !1)) }), $(".navegacion .menu > .item-submenu a").not(".item-subsubmenu a").click(function () { var a = $(this).parent().attr("menu"); $(".item-submenu[menu=" + a + "] .submenu").css({ left: "0px" }) }), $(".navegacion .submenu li.go-back").click(function () { $(this).parent().css({ left: "-320px" }) }), $(".navegacion .menu > .item-submenu > .submenu .item-subsubmenu a").click(function () { var a = $(this).parent().attr("menu"); $(".item-subsubmenu[menu=" + a + "] .subsubmenu").css({ left: "0px" }) }), $(".navegacion .subsubmenu li.go-back").click(function () { $(this).parent().css({ left: "-320px" }) }), $("#buscador").keyup(function (a) { 13 == a.keyCode && ($("#buscador").blur(), $("#gsc-i-id1").val($("#buscador").val()), $(".gsc-search-button input").click(), $("#google_search_bar").show(1000), $("#buscador").val("")) }) 
+           !function () { var e = "008783693925097325655:1rsd9wxr7be", t = document.createElement("script"); t.type = "text/javascript", t.async = !0, t.src = "https://cse.google.com/cse.js?cx=" + e; var c = document.getElementsByTagName("script")[0]; c.parentNode.insertBefore(t, c) } ();
+        </script>
+        <asp:ContentPlaceHolder ID="javascriptPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+    </body>
+</html>
