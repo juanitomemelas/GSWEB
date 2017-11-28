@@ -16,3 +16,14 @@ C:\Users\mahon\Desktop\GS\bin\x64\Debug\Telerik.Web.UI.xml
 C:\Users\mahon\Desktop\GS\obj\x64\Debug\WebSanchez2016.csprojResolveAssemblyReference.cache
 C:\Users\mahon\Desktop\GS\obj\x64\Debug\WebSanchez2016.dll
 C:\Users\mahon\Desktop\GS\obj\x64\Debug\WebSanchez2016.pdb
+C:\Users\mahon\Documents\GitHub\GSWEB\bin\x64\Debug\bin\WebSanchez2016.pdb
+C:\Users\mahon\Documents\GitHub\GSWEB\bin\x64\Debug\WebSanchez2016.dll
+C:\Users\mahon\Documents\GitHub\GSWEB\bin\x64\Debug\WebSanchez2016.pdb
+C:\Users\mahon\Documents\GitHub\GSWEB\bin\x64\Debug\WebSanchez2016.dll.CodeAnalysisLog.xml
+C:\Users\mahon\Documents\GitHub\GSWEB\bin\x64\Debug\WebSanchez2016.dll.lastcodeanalysissucceeded
+C:\Users\mahon\Documents\GitHub\GSWEB\bin\x64\Debug\Telerik.Web.UI.dll
+C:\Users\mahon\Documents\GitHub\GSWEB\bin\x64\Debug\Telerik.Web.UI.Skins.dll
+C:\Users\mahon\Documents\GitHub\GSWEB\bin\x64\Debug\Telerik.Web.UI.xml
+C:\Users\mahon\Documents\GitHub\GSWEB\obj\x64\Debug\WebSanchez2016.dll
+C:\Users\mahon\Documents\GitHub\GSWEB\obj\x64\Debug\WebSanchez2016.pdb
+C:\Users\mahon\Documents\GitHub\GSWEB\obj\x64\Debug\WebSanchez2016.csprojResolveAssemblyReference.cache

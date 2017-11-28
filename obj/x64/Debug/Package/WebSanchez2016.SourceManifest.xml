@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="C:\Users\mahon\Documents\GitHub\GSWEB\obj\x64\Debug\Package\PackageTmp" managedRuntimeVersion="v4.0" />
+  <setAcl path="C:\Users\mahon\Documents\GitHub\GSWEB\obj\x64\Debug\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="C:\Users\mahon\Documents\GitHub\GSWEB\obj\x64\Debug\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

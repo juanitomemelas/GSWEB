@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 10.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="10.0">
+ <Targets>
+  <Target Name="C:\Users\mahon\Documents\GitHub\GSWEB\bin\x64\Debug\WebSanchez2016.dll">
+   <Modules>
+    <Module Name="websanchez2016.dll">
+     <Namespaces>
+      <Namespace Name="WebSanchez2016.es">
+       <Types>
+        <Type Name="Es_Master" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CrearMenuAcercaDeGS()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es" File="Es_Master.Master.cs" Line="221">En el método 'Es_Master.CrearMenuAcercaDeGS()', no se elimina (Dispose) el objeto 'table' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'table' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CrearMenuBuscar()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es" File="Es_Master.Master.cs" Line="251">En el método 'Es_Master.CrearMenuBuscar()', no se elimina (Dispose) el objeto 'table' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'table' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CrearMenuContactos()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es" File="Es_Master.Master.cs" Line="190">En el método 'Es_Master.CrearMenuContactos()', no se elimina (Dispose) el objeto 'table' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'table' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CrearMenuEtica()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es" File="Es_Master.Master.cs" Line="309">En el método 'Es_Master.CrearMenuEtica()', no se elimina (Dispose) el objeto 'table' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'table' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CrearMenuHome()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es" File="Es_Master.Master.cs" Line="238">En el método 'Es_Master.CrearMenuHome()', no se elimina (Dispose) el objeto 'table' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'table' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CrearMenuMapa()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es" File="Es_Master.Master.cs" Line="296">En el método 'Es_Master.CrearMenuMapa()', no se elimina (Dispose) el objeto 'table' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'table' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CrearMenuPrivacidad()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es" File="Es_Master.Master.cs" Line="324">En el método 'Es_Master.CrearMenuPrivacidad()', no se elimina (Dispose) el objeto 'table' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'table' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#CrearMenuTintasyMateriales()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es" File="Es_Master.Master.cs" Line="118">En el método 'Es_Master.CrearMenuTintasyMateriales()', no se elimina (Dispose) el objeto 'table' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'table' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="WebSanchez2016.es.Contactos">
+       <Types>
+        <Type Name="Colombia" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargaInfo(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Colombia.aspx.cs" Line="50">En el método 'Colombia.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda1' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Colombia.aspx.cs" Line="51">En el método 'Colombia.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda2' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Colombia.aspx.cs" Line="52">En el método 'Colombia.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda3' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Colombia.aspx.cs" Line="36">En el método 'Colombia.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'cmd' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Colombia.aspx.cs" Line="49">En el método 'Colombia.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Colombia.aspx.cs" Line="62">En el método 'Colombia.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Colombia.aspx.cs" Line="107">El objeto 'cnn' admite Dispose más de una vez en el método 'Colombia.CargaInfo(int, int)'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 107</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ingresaFila(System.String[])" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Colombia.aspx.cs" Line="120">En el método 'Colombia.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaDos' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaDos' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Colombia.aspx.cs" Line="137">En el método 'Colombia.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Colombia.aspx.cs" Line="121">En el método 'Colombia.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaTres' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaTres' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Colombia.aspx.cs" Line="119">En el método 'Colombia.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Colombia.aspx.cs" Line="138">En el método 'Colombia.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Colombia.aspx.cs" Line="118">En el método 'Colombia.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Costa_Rica" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargaInfo(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Costa_Rica.aspx.cs" Line="50">En el método 'Costa_Rica.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda1' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Costa_Rica.aspx.cs" Line="51">En el método 'Costa_Rica.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda2' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Costa_Rica.aspx.cs" Line="52">En el método 'Costa_Rica.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda3' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Costa_Rica.aspx.cs" Line="36">En el método 'Costa_Rica.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'cmd' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Costa_Rica.aspx.cs" Line="49">En el método 'Costa_Rica.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Costa_Rica.aspx.cs" Line="62">En el método 'Costa_Rica.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Costa_Rica.aspx.cs" Line="107">El objeto 'cnn' admite Dispose más de una vez en el método 'Costa_Rica.CargaInfo(int, int)'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 107</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ingresaFila(System.String[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Costa_Rica.aspx.cs" Line="120">En el método 'Costa_Rica.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaDos' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaDos' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Costa_Rica.aspx.cs" Line="137">En el método 'Costa_Rica.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Costa_Rica.aspx.cs" Line="121">En el método 'Costa_Rica.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaTres' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaTres' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Costa_Rica.aspx.cs" Line="119">En el método 'Costa_Rica.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Costa_Rica.aspx.cs" Line="138">En el método 'Costa_Rica.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Costa_Rica.aspx.cs" Line="118">En el método 'Costa_Rica.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Credito" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargaInfo(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Credito.aspx.cs" Line="47">En el método 'Credito.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda1' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Credito.aspx.cs" Line="48">En el método 'Credito.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda2' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Credito.aspx.cs" Line="49">En el método 'Credito.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda3' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Credito.aspx.cs" Line="36">En el método 'Credito.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'cmd' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Credito.aspx.cs" Line="46">En el método 'Credito.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Credito.aspx.cs" Line="59">En el método 'Credito.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Credito.aspx.cs" Line="104">El objeto 'cnn' admite Dispose más de una vez en el método 'Credito.CargaInfo(int)'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 104</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ingresaFila(System.String[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Credito.aspx.cs" Line="117">En el método 'Credito.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaDos' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaDos' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Credito.aspx.cs" Line="134">En el método 'Credito.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Credito.aspx.cs" Line="118">En el método 'Credito.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaTres' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaTres' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Credito.aspx.cs" Line="116">En el método 'Credito.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Credito.aspx.cs" Line="135">En el método 'Credito.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Credito.aspx.cs" Line="115">En el método 'Credito.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Directores" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargaInfo(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Directores.aspx.cs" Line="47">En el método 'Directores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda1' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Directores.aspx.cs" Line="48">En el método 'Directores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda2' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Directores.aspx.cs" Line="49">En el método 'Directores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda3' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Directores.aspx.cs" Line="36">En el método 'Directores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'cmd' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Directores.aspx.cs" Line="46">En el método 'Directores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Directores.aspx.cs" Line="59">En el método 'Directores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Directores.aspx.cs" Line="92">El objeto 'cnn' admite Dispose más de una vez en el método 'Directores.CargaInfo(int)'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 92</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ingresaFila(System.String[])" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Directores.aspx.cs" Line="109">En el método 'Directores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaDos' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaDos' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Directores.aspx.cs" Line="127">En el método 'Directores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Directores.aspx.cs" Line="110">En el método 'Directores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaTres' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaTres' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Directores.aspx.cs" Line="108">En el método 'Directores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Directores.aspx.cs" Line="128">En el método 'Directores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Directores.aspx.cs" Line="107">En el método 'Directores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Distribuidores" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargaInfo(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Distribuidores.aspx.cs" Line="44">En el método 'Distribuidores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda1' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Distribuidores.aspx.cs" Line="45">En el método 'Distribuidores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda2' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Distribuidores.aspx.cs" Line="46">En el método 'Distribuidores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda3' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Distribuidores.aspx.cs" Line="35">En el método 'Distribuidores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'cmd' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Distribuidores.aspx.cs" Line="43">En el método 'Distribuidores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Distribuidores.aspx.cs" Line="56">En el método 'Distribuidores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Distribuidores.aspx.cs" Line="103">El objeto 'cnn' admite Dispose más de una vez en el método 'Distribuidores.CargaInfo(int)'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 103</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ingresaFila(System.String[])" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Distribuidores.aspx.cs" Line="118">En el método 'Distribuidores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaDos' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaDos' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Distribuidores.aspx.cs" Line="136">En el método 'Distribuidores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Distribuidores.aspx.cs" Line="119">En el método 'Distribuidores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaTres' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaTres' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Distribuidores.aspx.cs" Line="117">En el método 'Distribuidores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Distribuidores.aspx.cs" Line="137">En el método 'Distribuidores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Distribuidores.aspx.cs" Line="116">En el método 'Distribuidores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="El_Salvador" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargaInfo(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="El_Salvador.aspx.cs" Line="49">En el método 'El_Salvador.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda1' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="El_Salvador.aspx.cs" Line="50">En el método 'El_Salvador.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda2' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="El_Salvador.aspx.cs" Line="51">En el método 'El_Salvador.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda3' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="El_Salvador.aspx.cs" Line="36">En el método 'El_Salvador.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'cmd' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="El_Salvador.aspx.cs" Line="48">En el método 'El_Salvador.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="El_Salvador.aspx.cs" Line="61">En el método 'El_Salvador.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="El_Salvador.aspx.cs" Line="106">El objeto 'cnn' admite Dispose más de una vez en el método 'El_Salvador.CargaInfo(int, int)'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 106</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ingresaFila(System.String[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="El_Salvador.aspx.cs" Line="119">En el método 'El_Salvador.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaDos' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaDos' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="El_Salvador.aspx.cs" Line="136">En el método 'El_Salvador.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="El_Salvador.aspx.cs" Line="120">En el método 'El_Salvador.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaTres' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaTres' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="El_Salvador.aspx.cs" Line="118">En el método 'El_Salvador.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="El_Salvador.aspx.cs" Line="137">En el método 'El_Salvador.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="El_Salvador.aspx.cs" Line="117">En el método 'El_Salvador.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Equipo" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargaInfo(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Equipo.aspx.cs" Line="48">En el método 'Equipo.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda1' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Equipo.aspx.cs" Line="49">En el método 'Equipo.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda2' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Equipo.aspx.cs" Line="50">En el método 'Equipo.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda3' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Equipo.aspx.cs" Line="36">En el método 'Equipo.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'cmd' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Equipo.aspx.cs" Line="47">En el método 'Equipo.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Equipo.aspx.cs" Line="60">En el método 'Equipo.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Equipo.aspx.cs" Line="106">El objeto 'cnn' admite Dispose más de una vez en el método 'Equipo.CargaInfo(int)'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 106</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ingresaFila(System.String[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Equipo.aspx.cs" Line="119">En el método 'Equipo.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaDos' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaDos' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Equipo.aspx.cs" Line="136">En el método 'Equipo.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Equipo.aspx.cs" Line="120">En el método 'Equipo.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaTres' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaTres' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Equipo.aspx.cs" Line="118">En el método 'Equipo.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Equipo.aspx.cs" Line="137">En el método 'Equipo.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Equipo.aspx.cs" Line="117">En el método 'Equipo.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Guatemala" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargaInfo(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala.aspx.cs" Line="49">En el método 'Guatemala.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda1' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala.aspx.cs" Line="50">En el método 'Guatemala.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda2' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala.aspx.cs" Line="51">En el método 'Guatemala.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda3' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala.aspx.cs" Line="36">En el método 'Guatemala.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'cmd' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala.aspx.cs" Line="48">En el método 'Guatemala.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala.aspx.cs" Line="61">En el método 'Guatemala.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala.aspx.cs" Line="105">El objeto 'cnn' admite Dispose más de una vez en el método 'Guatemala.CargaInfo(int, int)'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 105</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ingresaFila(System.String[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala.aspx.cs" Line="118">En el método 'Guatemala.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaDos' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaDos' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala.aspx.cs" Line="135">En el método 'Guatemala.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala.aspx.cs" Line="119">En el método 'Guatemala.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaTres' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaTres' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala.aspx.cs" Line="117">En el método 'Guatemala.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala.aspx.cs" Line="136">En el método 'Guatemala.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala.aspx.cs" Line="116">En el método 'Guatemala.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Guatemala_Distribuidores" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargaInfo(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala_Distribuidores.aspx.cs" Line="49">En el método 'Guatemala_Distribuidores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda1' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala_Distribuidores.aspx.cs" Line="50">En el método 'Guatemala_Distribuidores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda2' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala_Distribuidores.aspx.cs" Line="51">En el método 'Guatemala_Distribuidores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda3' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala_Distribuidores.aspx.cs" Line="37">En el método 'Guatemala_Distribuidores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'cmd' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala_Distribuidores.aspx.cs" Line="48">En el método 'Guatemala_Distribuidores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala_Distribuidores.aspx.cs" Line="61">En el método 'Guatemala_Distribuidores.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala_Distribuidores.aspx.cs" Line="106">El objeto 'cnn' admite Dispose más de una vez en el método 'Guatemala_Distribuidores.CargaInfo(int)'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 106</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ingresaFila(System.String[])" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala_Distribuidores.aspx.cs" Line="120">En el método 'Guatemala_Distribuidores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaDos' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaDos' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala_Distribuidores.aspx.cs" Line="137">En el método 'Guatemala_Distribuidores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala_Distribuidores.aspx.cs" Line="121">En el método 'Guatemala_Distribuidores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaTres' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaTres' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala_Distribuidores.aspx.cs" Line="119">En el método 'Guatemala_Distribuidores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala_Distribuidores.aspx.cs" Line="138">En el método 'Guatemala_Distribuidores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Guatemala_Distribuidores.aspx.cs" Line="118">En el método 'Guatemala_Distribuidores.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Offset_hoja_heatset_periodicos" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargaInfo(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Offset_hoja_heatset_periodicos.aspx.cs" Line="48">En el método 'Offset_hoja_heatset_periodicos.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda1' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Offset_hoja_heatset_periodicos.aspx.cs" Line="49">En el método 'Offset_hoja_heatset_periodicos.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda2' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Offset_hoja_heatset_periodicos.aspx.cs" Line="50">En el método 'Offset_hoja_heatset_periodicos.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda3' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Offset_hoja_heatset_periodicos.aspx.cs" Line="36">En el método 'Offset_hoja_heatset_periodicos.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'cmd' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Offset_hoja_heatset_periodicos.aspx.cs" Line="47">En el método 'Offset_hoja_heatset_periodicos.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Offset_hoja_heatset_periodicos.aspx.cs" Line="60">En el método 'Offset_hoja_heatset_periodicos.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Offset_hoja_heatset_periodicos.aspx.cs" Line="122">El objeto 'cnn' admite Dispose más de una vez en el método 'Offset_hoja_heatset_periodicos.CargaInfo(int)'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 122</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ingresaFila(System.String[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Offset_hoja_heatset_periodicos.aspx.cs" Line="135">En el método 'Offset_hoja_heatset_periodicos.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaDos' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaDos' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Offset_hoja_heatset_periodicos.aspx.cs" Line="152">En el método 'Offset_hoja_heatset_periodicos.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Offset_hoja_heatset_periodicos.aspx.cs" Line="136">En el método 'Offset_hoja_heatset_periodicos.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaTres' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaTres' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Offset_hoja_heatset_periodicos.aspx.cs" Line="134">En el método 'Offset_hoja_heatset_periodicos.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Offset_hoja_heatset_periodicos.aspx.cs" Line="153">En el método 'Offset_hoja_heatset_periodicos.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Offset_hoja_heatset_periodicos.aspx.cs" Line="133">En el método 'Offset_hoja_heatset_periodicos.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PlantaCDMX" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargaInfo(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaCDMX.aspx.cs" Line="49">En el método 'PlantaCDMX.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda1' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaCDMX.aspx.cs" Line="50">En el método 'PlantaCDMX.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda2' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaCDMX.aspx.cs" Line="51">En el método 'PlantaCDMX.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda3' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaCDMX.aspx.cs" Line="36">En el método 'PlantaCDMX.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'cmd' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaCDMX.aspx.cs" Line="48">En el método 'PlantaCDMX.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaCDMX.aspx.cs" Line="61">En el método 'PlantaCDMX.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaCDMX.aspx.cs" Line="106">El objeto 'cnn' admite Dispose más de una vez en el método 'PlantaCDMX.CargaInfo(int, int)'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 106</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ingresaFila(System.String[])" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaCDMX.aspx.cs" Line="119">En el método 'PlantaCDMX.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaDos' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaDos' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaCDMX.aspx.cs" Line="136">En el método 'PlantaCDMX.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaCDMX.aspx.cs" Line="120">En el método 'PlantaCDMX.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaTres' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaTres' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaCDMX.aspx.cs" Line="118">En el método 'PlantaCDMX.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaCDMX.aspx.cs" Line="137">En el método 'PlantaCDMX.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaCDMX.aspx.cs" Line="117">En el método 'PlantaCDMX.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PlantaTepeji" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargaInfo(System.Int32,System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaTepeji.aspx.cs" Line="50">En el método 'PlantaTepeji.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda1' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaTepeji.aspx.cs" Line="51">En el método 'PlantaTepeji.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda2' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaTepeji.aspx.cs" Line="52">En el método 'PlantaTepeji.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'celda3' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaTepeji.aspx.cs" Line="36">En el método 'PlantaTepeji.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'cmd' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaTepeji.aspx.cs" Line="49">En el método 'PlantaTepeji.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaTepeji.aspx.cs" Line="62">En el método 'PlantaTepeji.CargaInfo(int, int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaTepeji.aspx.cs" Line="107">El objeto 'cnn' admite Dispose más de una vez en el método 'PlantaTepeji.CargaInfo(int, int)'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 107</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ingresaFila(System.String[])" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaTepeji.aspx.cs" Line="120">En el método 'PlantaTepeji.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaDos' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaDos' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaTepeji.aspx.cs" Line="137">En el método 'PlantaTepeji.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaTepeji.aspx.cs" Line="121">En el método 'PlantaTepeji.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaTres' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaTres' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaTepeji.aspx.cs" Line="119">En el método 'PlantaTepeji.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaTepeji.aspx.cs" Line="138">En el método 'PlantaTepeji.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="PlantaTepeji.aspx.cs" Line="118">En el método 'PlantaTepeji.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Rotograbado_flexografia" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargaInfo(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Rotograbado_flexografia.aspx.cs" Line="47">En el método 'Rotograbado_flexografia.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda1' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Rotograbado_flexografia.aspx.cs" Line="48">En el método 'Rotograbado_flexografia.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda2' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Rotograbado_flexografia.aspx.cs" Line="49">En el método 'Rotograbado_flexografia.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda3' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Rotograbado_flexografia.aspx.cs" Line="36">En el método 'Rotograbado_flexografia.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'cmd' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Rotograbado_flexografia.aspx.cs" Line="46">En el método 'Rotograbado_flexografia.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Rotograbado_flexografia.aspx.cs" Line="59">En el método 'Rotograbado_flexografia.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Rotograbado_flexografia.aspx.cs" Line="104">El objeto 'cnn' admite Dispose más de una vez en el método 'Rotograbado_flexografia.CargaInfo(int)'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 104</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ingresaFila(System.String[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Rotograbado_flexografia.aspx.cs" Line="117">En el método 'Rotograbado_flexografia.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaDos' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaDos' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Rotograbado_flexografia.aspx.cs" Line="134">En el método 'Rotograbado_flexografia.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Rotograbado_flexografia.aspx.cs" Line="118">En el método 'Rotograbado_flexografia.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaTres' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaTres' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Rotograbado_flexografia.aspx.cs" Line="116">En el método 'Rotograbado_flexografia.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Rotograbado_flexografia.aspx.cs" Line="135">En el método 'Rotograbado_flexografia.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Rotograbado_flexografia.aspx.cs" Line="115">En el método 'Rotograbado_flexografia.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Serigrafía_Digital_Gran_Formato" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargaInfo(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Serigrafía_Digital_Gran_Formato.aspx.cs" Line="47">En el método 'Serigrafía_Digital_Gran_Formato.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda1' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Serigrafía_Digital_Gran_Formato.aspx.cs" Line="48">En el método 'Serigrafía_Digital_Gran_Formato.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda2' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Serigrafía_Digital_Gran_Formato.aspx.cs" Line="49">En el método 'Serigrafía_Digital_Gran_Formato.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda3' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Serigrafía_Digital_Gran_Formato.aspx.cs" Line="35">En el método 'Serigrafía_Digital_Gran_Formato.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'cmd' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Serigrafía_Digital_Gran_Formato.aspx.cs" Line="46">En el método 'Serigrafía_Digital_Gran_Formato.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Serigrafía_Digital_Gran_Formato.aspx.cs" Line="59">En el método 'Serigrafía_Digital_Gran_Formato.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Serigrafía_Digital_Gran_Formato.aspx.cs" Line="104">El objeto 'cnn' admite Dispose más de una vez en el método 'Serigrafía_Digital_Gran_Formato.CargaInfo(int)'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 104</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ingresaFila(System.String[])" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Serigrafía_Digital_Gran_Formato.aspx.cs" Line="117">En el método 'Serigrafía_Digital_Gran_Formato.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaDos' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaDos' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Serigrafía_Digital_Gran_Formato.aspx.cs" Line="134">En el método 'Serigrafía_Digital_Gran_Formato.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Serigrafía_Digital_Gran_Formato.aspx.cs" Line="118">En el método 'Serigrafía_Digital_Gran_Formato.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaTres' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaTres' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Serigrafía_Digital_Gran_Formato.aspx.cs" Line="116">En el método 'Serigrafía_Digital_Gran_Formato.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Serigrafía_Digital_Gran_Formato.aspx.cs" Line="135">En el método 'Serigrafía_Digital_Gran_Formato.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Serigrafía_Digital_Gran_Formato.aspx.cs" Line="115">En el método 'Serigrafía_Digital_Gran_Formato.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="Sucursales" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#CargaInfo(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Sucursales.aspx.cs" Line="48">En el método 'Sucursales.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda1' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Sucursales.aspx.cs" Line="49">En el método 'Sucursales.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda2' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Sucursales.aspx.cs" Line="50">En el método 'Sucursales.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'celda3' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Sucursales.aspx.cs" Line="36">En el método 'Sucursales.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'cmd' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Sucursales.aspx.cs" Line="47">En el método 'Sucursales.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="NonExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Sucursales.aspx.cs" Line="60">En el método 'Sucursales.CargaInfo(int)', llame a System.IDisposable.Dispose en el objeto 'renglon' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Sucursales.aspx.cs" Line="105">El objeto 'cnn' admite Dispose más de una vez en el método 'Sucursales.CargaInfo(int)'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 105</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#ingresaFila(System.String[])" Kind="Method" Static="False" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2017-11-21 03:05:35Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Sucursales.aspx.cs" Line="119">En el método 'Sucursales.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaDos' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaDos' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Sucursales.aspx.cs" Line="136">En el método 'Sucursales.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Sucursales.aspx.cs" Line="120">En el método 'Sucursales.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaTres' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaTres' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Sucursales.aspx.cs" Line="118">En el método 'Sucursales.ingresaFila(string[])', no se elimina (Dispose) el objeto 'celdaUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'celdaUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Sucursales.aspx.cs" Line="137">En el método 'Sucursales.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonEspacio' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonEspacio' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="C:\Users\mahon\Documents\GitHub\GSWEB\es\Contactos" File="Sucursales.aspx.cs" Line="117">En el método 'Sucursales.ingresaFila(string[])', no se elimina (Dispose) el objeto 'renglonUno' en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto 'renglonUno' antes de que todas las referencias a él estén fuera de ámbito.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="Eliminar (Dispose) objetos antes de perder el ámbito" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>Eliminar (Dispose) objetos antes de perder el ámbito</Name>
+   <Description>Si un objeto que se puede eliminar (método Dispose) no se elimina de forma explícita antes de que todas las referencias a él estén fuera de ámbito, el objeto se eliminará en algún momento indeterminado cuando el recolector de elementos no utilizados ejecute el finalizador del objeto. Puesto que podría producirse un evento excepcional que impida que se ejecute el finalizador del objeto, el objeto debe eliminarse de forma explícita.</Description>
+   <Resolution Name="ExceptionEdge">En el método {0}, no se elimina (Dispose) el objeto {1} en todas las rutas de acceso de excepciones. Llame a System.IDisposable.Dispose en el objeto {1} antes de que todas las referencias a él estén fuera de ámbito.</Resolution>
+   <Resolution Name="NonExceptionEdge">En el método {0}, llame a System.IDisposable.Dispose en el objeto {1} antes de que todas las referencias a él estén fuera de ámbito.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+  <Rule TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>No usar Dispose varias veces en objetos</Name>
+   <Description>Un método Dispose correctamente implementado se puede llamar varias veces sin producir ninguna excepción. Sin embargo, esto no está garantizado y, para evitar generar una excepción System.ObjectDisposedException, no debe llamar al método Dispose más de una vez en un objeto.</Description>
+   <Resolution Name="Default">El objeto {0} admite Dispose más de una vez en el método {1}. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 106</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="10.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Categoría</String>
+  <String Key="Certainty">Certeza</String>
+  <String Key="CollapseAll">Contraer todo</String>
+  <String Key="CheckId">Comprobar id.</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">errores</String>
+  <String Key="ExpandAll">Expandir todo</String>
+  <String Key="Help">Ayuda</String>
+  <String Key="Line">Línea</String>
+  <String Key="Messages">mensajes</String>
+  <String Key="LocationNotStoredInPdb">[Ubicación no almacenada en Pdb]</String>
+  <String Key="Project">Proyecto</String>
+  <String Key="Resolution">Resolución</String>
+  <String Key="Rule">Regla</String>
+  <String Key="RuleFile">Archivo de regla</String>
+  <String Key="RuleDescription">Descripción de la regla</String>
+  <String Key="Source">Origen</String>
+  <String Key="Status">Estado</String>
+  <String Key="Target">Círculos concéntricos</String>
+  <String Key="Warning">Advertencia</String>
+  <String Key="Warnings">advertencias</String>
+  <String Key="ReportTitle">Informe de análisis del código</String>
+ </Localized>
+</FxCopReport>
